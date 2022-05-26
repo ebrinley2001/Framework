@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Authors>Ethan Brinley</Authors>
+	<Version>1.0.1</Version>
+	<Description>
+		My Bc Framework stuff
+	</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EthanFramework.Data\EthanFramework.Data.csproj" />
+  </ItemGroup>
+
+</Project>
